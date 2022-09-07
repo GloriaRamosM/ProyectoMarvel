@@ -11,6 +11,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,200;1,500&family=Bebas+Neue&display=swap"
     rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
   <title>Historia</title>
 </head>
@@ -49,11 +51,13 @@
 
     <section class="seccionHistoria">
 
-      <h2>Historia</h2>
+      <h2> Historia</h2>
 
       <article class="parrafo-uno-historia">
-        <img src="../paginas/imagenes/comichistoria.jpg" alt="">
-        <p>
+         
+         <img src="../paginas/imagenes/comichistoria.jpg" alt=""> 
+        
+          <p>
           Spiderman, Capitán América, Iron Man… La lista de superhéroes de
           Marvel es conocida por grandes y pequeños en todo el mundo. La
           compañía ha sacado un rendimiento multimillonario a todos sus
@@ -81,16 +85,14 @@
           aparecer sería Nick Fury, un personaje de historietas bélicas que sería actualizado y se transformaría en un
           agente secreto, integrado dentro del naciente universo de Marvel.
 
-
-
         </p>
+      
       </article>
 
       <article class="parrafo-dos-historia">
         <img src="./imagenes/comicsdeinicio.jpg" alt=" ">
+
         <p>
-
-
           De 1968 a 1977:
           Stan Lee funcionaba como guionista, editor literario y artístico, mientras que el dibujante Sol Brodsky y su
           sucesor, John Verpoorten, se ocupaba de los aspectos técnicos, como redacción de contratos, fechas de entrega
@@ -117,8 +119,6 @@
           otro y el mejor ejemplo es la película de culto de Los 4 Fantásticos, producida en 1994 y que era tan, pero
           tan
           mala, que nunca llegó a estrenarse.
-
-
 
         </p>
       </article>
@@ -200,23 +200,27 @@
         </nav>
       </article>
 
-      <nav class="comics">
-        <a target="_blank" href="https://www.marvel.com/comics/issue/100409/the_variants_2022_3 "> <img src="./imagenes/comic1.jpg"
-            alt=""></a>
-        <a target="_blank" href="https://www.marvel.com/comics/issue/99553/moon_knight_black_white_blood_2022_4 "> <img
-            src="./imagenes/comic2.jpg" alt=""></a>
-        <a target="_blank" href="https://www.marvel.com/comics/issue/101112/thunderbolts_2022_1"> <img src="./imagenes/comic3.jpg"
-            alt=""></a>
-        <a target="_blank" href="https://www.marvel.com/comics/issue/101190/star_wars_obi-wan_2022_4"><img src="./imagenes/comic4.jpg"
-            alt="">
-        </a>
-        <a target="_blank" href="https://www.marvel.com/comics/issue/98659/ant-man_2022_2 "><img src="./imagenes/comic5.jpg" alt=""></a>
-        <a target="_blank" href=" https://www.marvel.com/comics/issue/47001/age_of_ultron_2013_1"> <img src="./imagenes/comic6.jpg"
-            alt=""></a>
-      </nav>
     </section>
 
-
+    <div class="comics">
+      <nav>
+        <a class="comic1" target="_blank" href="https://www.marvel.com/comics/issue/100409/the_variants_2022_3 "> <img
+            src="./imagenes/comic1.jpg" alt=""></a>
+        <a class="comic2" target="_blank"
+          href="https://www.marvel.com/comics/issue/99553/moon_knight_black_white_blood_2022_4 "> <img
+            src="./imagenes/comic2.jpg" alt=""></a>
+        <a class="comic3" target="_blank" href="https://www.marvel.com/comics/issue/101112/thunderbolts_2022_1"> <img
+            src="./imagenes/comic3.jpg" alt=""></a>
+        <a class="comic4" target="_blank"
+          href="https://www.marvel.com/comics/issue/101190/star_wars_obi-wan_2022_4"><img src="./imagenes/comic4.jpg"
+            alt="">
+        </a>
+        <a class="comic5" target="_blank" href="https://www.marvel.com/comics/issue/98659/ant-man_2022_2 "><img
+            src="./imagenes/comic5.jpg" alt=""></a>
+        <a class="comic6" target="_blank" href=" https://www.marvel.com/comics/issue/47001/age_of_ultron_2013_1"> <img
+            src="./imagenes/comic6.jpg" alt=""></a>
+      </nav>
+    </div>
 
   </div>
 
@@ -245,6 +249,11 @@
     </ul>
 
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
