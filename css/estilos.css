@@ -22,6 +22,7 @@ header {
     top: 0;
 
 
+
 }
 
 
@@ -160,6 +161,9 @@ section h3 {
 }
 
 
+
+
+
 /* seccion Peliculas imagenes y seccion peliculas videos*/
 
 .seccionPeliculas {
@@ -168,7 +172,7 @@ section h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    
+
 }
 
 
@@ -194,15 +198,6 @@ section h3 {
 
 /* titulos de la seccion personajes*/
 
-h1 {
-    font-family: 'Barlow', sans-serif;
-    color: rgb(245, 245, 236);
-    font-size: 3rem;
-    text-align: center;
-    padding: 15px;
-}
-
-
 .spiderman h2,
 .doctorS h2,
 .vision h2,
@@ -227,6 +222,14 @@ h1 {
 /* Flex Seccion Personajes*/
 
 
+
+.seccionPersonajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 .spiderman,
 .doctorS,
 .vision,
@@ -241,25 +244,16 @@ h1 {
 .scarlet,
 .capitanAmerica,
 .ironman {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.seccionPersonajes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 40%;
+    width: 50%;
     height: auto;
+
+    text-align: center;
+    margin-top: 20px;
 }
 
 
 .seccionPersonajes p {
-    padding: 30px;
-
+    margin: 20px;
 }
 
 
@@ -270,7 +264,7 @@ h1 {
 /* seccion personajes fondo */
 
 .imagenBpersonajes {
-    background-color: rgb(12, 12, 12);
+    background-color: black;
     height: 10000px;
     background-attachment: fixed;
     background-position: center;
@@ -381,7 +375,7 @@ h1 {
 
 
 
-.parrafo-uno-historia {
+.parrafo-uno-historia  {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -436,9 +430,13 @@ article p {
 
 /* Seccion Comics*/
 
-
-
-
+.comics nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
 
 
 
@@ -475,6 +473,45 @@ footer ul li a {
     color: rgb(244, 242, 238);
 }
 
+/* TRANSICIONES*/
+
+.seccionPeliculas article a :hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+
+}
+  /* TRANS. SECCION PERSONAJES*/ 
+.comic1:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+.comic2:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+.comic3:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+.comic4:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+.comic5:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.comic6:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+/* ANIMACIONES - SECCION HISTORIA */ 
+
+
+
+
 
 
 
@@ -503,7 +540,7 @@ footer ul li a {
         height: 10000px;
     }
 
-    
+
 
 
     .seccionPeliculas {
