@@ -25,18 +25,36 @@
 <body>
 
 
-    <!-- navegador -->
+    <!-- Barra de navegacion -->
 
     <header>
-        <img class="logo" src="./paginas/imagenes/marvellogos.png" alt="">
-        <nav id="volveralmenu">
-            <ul>
-                <li><a href="./paginas/historia.html"> HISTORIA </a> </li>
-                <li><a href="./paginas/personajes.html"> PERSONAJES </a></li>
-                <li> <a href="#texto-peliculas"> PELICULAS</a></li>
-                <li><a href="#texto-noticias"> NOTICIAS</a> </li>
-                <li> <a href="./paginas/historia.html#texto-comics"> COMICS </a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light contenidoAlrededor">
+            <div class="container-fluid contenidoNav">
+                <a class="navbar-brand navLogo " href="#"><img src="./paginas/imagenes/marvellogos.png" alt=""></a>
+                <button class="navbar-toggler hamburguesa " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse letrasNav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navLinkPropio">
+                            <a class="nav-link active" aria-current="page" href="./paginas/historia.html">HISTORIA</a>
+                        </li>
+                        <li class="nav-item navLinkPropio">
+                            <a class="nav-link" href="./paginas/personajes.html">PERSONAJES</a>
+                        </li>
+                        <li class="nav-item navLinkPropio">
+                            <a class="nav-link" href="./index.html#texto-peliculas">PELICULAS</a>
+                        </li>
+                        <li class="nav-item navLinkPropio">
+                            <a class="nav-link" href="./index.html#texto-noticias">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item navLinkPropio">
+                            <a class="nav-link" href="./paginas/historia.html#texto-comics">COMICS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -325,10 +343,10 @@
                 </div>
             </div>
     </div>
-    
 
 
-    
+
+
 
 
 
