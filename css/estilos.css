@@ -9,52 +9,52 @@ html {
 }
 
 
-/* BOOTSTRAP Navegador */ 
+/* BOOTSTRAP Navegador */
 
 header {
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 99999;
-    
+
 }
 
 
-.contenidoNav{
+.contenidoNav {
     background-color: black;
 }
 
-.contenidoAlrededor{
+.contenidoAlrededor {
     padding: 0%;
-   
-   
+
+
 }
 
-.navLinkPropio a{
+.navLinkPropio a {
     text-decoration: none;
     color: rgb(252, 252, 252);
     list-style: none;
-    font-family:'Barlow', sans-serif; 
-    font-size: large ;
+    font-family: 'Barlow', sans-serif;
+    font-size: large;
     margin: 40px;
-    
-    
+
+
 }
 
 .navLinkPropio a:hover {
     color: rgb(205, 40, 40);
 }
 
-.letrasNav{
+.letrasNav {
     justify-content: center;
-    
+
 }
 
 
-.hamburguesa{
+.hamburguesa {
     color: rgb(27, 32, 34);
     background-color: rgb(27, 32, 34);
-   
+
 }
 
 
@@ -71,7 +71,7 @@ header {
 }
 
 .imagenBindex {
-    background-image: url(../paginas/imagenes/backgimage.jpg);
+    background-image: url(../paginas/imagenes/imagenbackg2.jpg);
     height: 5000px;
     background-attachment: fixed;
     background-position: center;
@@ -85,33 +85,10 @@ header {
 
 
 
-section h2 {
-    color: rgb(245, 250, 250);
-    font-family: 'Barlow', sans-serif;
-    font-size: 3rem;
-}
-
-
-section h3 {
-    color: rgb(245, 250, 250);
-    font-family: 'Barlow', sans-serif;
-    font-size: 2rem;
-}
 
 
 
-
-
-
-/* tipos de letas en la seccion de Index Peliculas y noticias*/
-
-
-.parrafoPeliculas h2 {
-    color: rgb(245, 250, 250);
-    font-family: 'Barlow', sans-serif;
-    font-size: 3rem;
-}
-
+/* tipos de letas en la seccion de Index Peliculas ,noticias y comics*/
 
 
 .seccionComics p,
@@ -126,16 +103,26 @@ section h3 {
     list-style: none;
 }
 
+.seccionNoticias h2 {
+    color: rgb(245, 250, 250);
+    font-size: 3rem;
+    margin: 20px;
+    text-align: center;
+}
+
+.seccionComics h2 {
+    color: rgb(245, 250, 250);
+    font-size: 3rem;
+    margin: 20px;
+    text-align: center;
+}
+
 #texto-noticias {
     color: rgb(245, 250, 250);
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.parrafoPeliculas h2 {
-    text-align: center;
-    margin: 20px;
-}
 
 .parrafoPeliculas p {
     margin: 20px;
@@ -144,13 +131,12 @@ section h3 {
 
 
 
-.seccionNoticias h2 {
+.seccionNoticias {
+    padding: 10px;
     margin: 20px;
-    text-align: center;
-
 }
 
-.seccionNoticias {
+.seccionComics {
     padding: 10px;
     margin: 20px;
 }
@@ -187,75 +173,6 @@ section h3 {
 
 
 
-/* titulos de la seccion personajes*/
-
-.spiderman h2,
-.doctorS h2,
-.vision h2,
-.loki h2,
-.nebula h2,
-.falcon h2,
-.capitanaMarvel h2,
-.thor h2,
-.hulk h2,
-.blackPanther h2,
-.blackW h2,
-.scarlet h2,
-.capitanAmerica h2,
-.ironman h2 {
-    color: rgb(249, 249, 245);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-
-}
-
-
-/* Arreglo de Cards - personajes*/
-
-
-.titulo {
-    text-align: center;
-    color: beige;
-    font-size: 20px;
-}
-
-.cuerpodeTarjeta {
-    background-color: rgb(0, 0, 0);
-    padding: 40px;
-
-}
-
-.estiloTarjeta {
-    border: rgb(16, 14, 14);
-}
-
-.letras {
-    color: beige;
-    font-size: 12px;
-
-
-
-}
-
-.letras:hover {
-    transform: scale(1.1);
-    transition: all 0.7s;
-}
-
-.tamanoTarjeta {
-    width: 400px;
-    height: auto;
-}
-
-.contenedorPersonajes {
-
-    padding: 10px;
-
-}
-
-.botonPropio:hover{
-color: darkcyan;
-}
 
 /* BS INDEX PELICULAS*/
 
@@ -295,9 +212,9 @@ color: darkcyan;
 }
 
 .wPropio {
-    width: 50% ! important;
+    width: 70% ! important;
     background-color: rgb(15, 15, 19);
-    margin: 30px;
+    margin: 20px;
 }
 
 .cuerpoTarjeta {
@@ -309,26 +226,92 @@ color: darkcyan;
 
 .botonPropio {
     background-color: rgb(6, 54, 55);
-    border-color:rgb(6, 54, 55) ;
+    border-color: rgb(6, 54, 55);
     font-size: 1rem;
 
 }
 
-.botonPropio:hover{
+.botonPropio:hover {
     background-color: darkcyan;
     border-color: darkcyan;
     background-color: transparent;
 
 }
 
-.navLogo img{
+.navLogo img {
     width: 200px;
 }
+
+
+
+/* ARREGLO CARDS PERSONAJES*/
+/* ANIMACIONES PERSONAJES*/
+
+
+.titulo  {
+    text-align: center;
+    color: beige;
+    font-size: 20px;
+}
+
+.tituloPersonajes{
+    text-align: center;
+    color: beige;
+    font-size: 3rem;
+    padding-top: 30px;
+    
+}
+
+.cuerpodeTarjeta {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+
+}
+
+.estiloTarjeta {
+    border: rgb(16, 14, 14);
+}
+
+.letras {
+    color: beige;
+    font-size: 12px;
+
+
+
+}
+
+.letras:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+
+.tamanoTarjeta {
+    padding-top: 40px;
+    width: 400px;
+    height: 600px;
+
+}
+
+.contenedorPersonajes {
+    padding: 5px;
+    
+}
+
+
+.botonPropio:hover {
+    color: darkcyan;
+}
+
+
+
+
+
 
 /* seccion personajes fondo */
 
 .imagenBpersonajes {
-    background-color: black;
+    background-image: url(../paginas/imagenes/imagenbackg2.jpg);
     height: 10000px;
     background-attachment: fixed;
     background-position: center;
@@ -339,38 +322,10 @@ color: darkcyan;
 
 
 
-/* Fotos tamanos  y de seccion personajes*/
-
-.seccionPersonajes article img {
-    width: 600px;
-    height: 380px;
-}
-
 
 
 
 /* Tipos de letras seccion personajes*/
-
-
-
-.spiderman p,
-.doctorS p,
-.vision p,
-.loki p,
-.nebula p,
-.falcon p,
-.capitanaMarvel p,
-.thor p,
-.hulk p,
-.blackPanther p,
-.blackW p,
-.scarlet p,
-.capitanAmerica p,
-.ironman p {
-    font-size: medium;
-    font-family: 'Barlow', sans-serif;
-    color: rgb(250, 250, 244);
-}
 
 
 
@@ -401,7 +356,7 @@ color: darkcyan;
 /* Backgraound img Historia*/
 
 .backgroundColorHistoria {
-    background-image: url(../paginas/imagenes/backgimage.jpg);
+    background-image: url(../paginas/imagenes/backgimage3.jpg);
     height: 8000%;
     background-attachment: fixed;
     background-position: center;
@@ -492,6 +447,8 @@ article p {
 }
 
 
+
+
 /* Seccion Comics*/
 
 .comics nav {
@@ -537,6 +494,8 @@ footer ul li a {
     color: rgb(244, 242, 238);
 }
 
+
+
 /* TRANSICIONES*/
 
 .seccionPeliculas article a :hover {
@@ -545,7 +504,7 @@ footer ul li a {
 
 }
 
-/* TRANS. SECCION PERSONAJES*/
+/* TRANS. SECCION COMICS*/
 .comic1:hover {
     transform: scale(1.1);
     transition: all 0.7s;
@@ -574,10 +533,8 @@ footer ul li a {
 .comic6:hover {
     transform: scale(1.1);
     transition: all 0.7s;
+
 }
-
-/* ANIMACIONES - SECCION HISTORIA */
-
 
 
 
@@ -587,10 +544,10 @@ footer ul li a {
 /* Media Queries */
 
 @media screen and (max-width:480px) {
- 
-.navLinkPropio a {
-    margin: 5px;
-}
+
+    .navLinkPropio a {
+        margin: 5px;
+    }
 
 
 
@@ -601,8 +558,6 @@ footer ul li a {
     .imagenBindex {
         height: 10000px;
     }
-
-
 
 
     .seccionPeliculas {
@@ -631,53 +586,29 @@ footer ul li a {
 
 
     .imagenBpersonajes {
-        background-color: rgb(17, 16, 16);
         height: 9000px;
     }
 
+    .tamanoTarjeta {
+        padding-top: 20px;
+        width: 400px;
+        height: auto;
+    
+    }
+    
+    .contenedorPersonajes {
 
-    .seccionPersonajes {
-        flex-direction: column;
-        align-items: center;
+        padding: 5px;
+    
+        
     }
 
 
-
+    
     
 
 
 
-
-    .seccionPersonajes article img {
-        width: 420px;
-        height: 300px;
-    }
-
-
-    .seccionPersonajes p {
-        padding: 20px;
-
-    }
-
-
-
-
-    .spiderman h2,
-    .doctorS h2,
-    .vision h2,
-    .loki h2,
-    .nebula h2,
-    .falcon h2,
-    .capitanaMarvel h2,
-    .thor h2,
-    .hulk h2,
-    .blackPanther h2,
-    .blackW h2,
-    .scarlet h2,
-    .capitanAmerica h2,
-    .ironman h2 {
-        margin-top: 20px;
-    }
 
     /* Footer para las 3 secciones */
 
