@@ -626,7 +626,14 @@ footer ul li a {
 
     /* Seccion Historia*/
 
-
+    .backgroundColorHistoria {
+        background-image: url(../paginas/imagenes/backgimage3.jpg);
+        height: 8000%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     .seccionHistoria {
         flex-direction: column;
