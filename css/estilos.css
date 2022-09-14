@@ -71,7 +71,7 @@ header {
 }
 
 .imagenBindex {
-    background-image: url(../paginas/imagenes/imagenbackg2.jpg);
+    background-image: url(../paginas/imagenes/backgimage.jpg);
     height: 5000px;
     background-attachment: fixed;
     background-position: center;
@@ -80,8 +80,23 @@ header {
 }
 
 
+/* INDEX agradecimiento*/
 
-/* titulos Index- Peliculas*/
+
+.seccionAgradecimiento div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    padding-top: 20%;
+}
+
+.imagenAgradecimiento {
+    width: 500px;
+}
+
 
 
 
@@ -248,22 +263,26 @@ header {
 /* ANIMACIONES PERSONAJES*/
 
 
-.titulo  {
+.titulo {
     text-align: center;
     color: beige;
     font-size: 20px;
 }
 
-.tituloPersonajes{
-    text-align: center;
-    color: beige;
-    font-size: 3rem;
+.tituloPersonajes {
+    text-align: right;
+    color: rgb(249, 246, 244);
+    font-size: 4rem;
     padding-top: 30px;
-    
+    padding-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50%;
 }
 
+
+
 .cuerpodeTarjeta {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     padding: 30px;
 
 }
@@ -294,8 +313,7 @@ header {
 }
 
 .contenedorPersonajes {
-    padding: 5px;
-    
+    padding-left: 30px;
 }
 
 
@@ -312,7 +330,7 @@ header {
 
 .imagenBpersonajes {
     background-image: url(../paginas/imagenes/imagenbackg2.jpg);
-    height: 10000px;
+    height: 5000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -356,7 +374,7 @@ header {
 /* Backgraound img Historia*/
 
 .backgroundColorHistoria {
-    background-image: url(../paginas/imagenes/backgimage3.jpg);
+    background-image: url(../paginas/imagenes/backgimage3.jpg );
     height: 8000%;
     background-attachment: fixed;
     background-position: center;
@@ -399,7 +417,9 @@ header {
     flex-direction: row;
     justify-content: left;
 
+
 }
+
 
 .parrafo-dos-historia {
     display: flex;
@@ -543,14 +563,18 @@ footer ul li a {
 
 /* Media Queries */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
+
+
+    /* NAVEGADOR*/
 
     .navLinkPropio a {
         margin: 5px;
     }
 
-
-
+    .contenidoNav {
+        justify-content: center;
+    }
 
     /* Seccion Index ( peliculas y noticias ) */
 
@@ -593,19 +617,19 @@ footer ul li a {
         padding-top: 20px;
         width: 400px;
         height: auto;
-    
+
     }
-    
+
     .contenedorPersonajes {
 
         padding: 5px;
-    
-        
+
+
     }
 
 
-    
-    
+
+
 
 
 
@@ -626,14 +650,6 @@ footer ul li a {
 
     /* Seccion Historia*/
 
-    .backgroundColorHistoria {
-        background-image: url(../paginas/imagenes/backgimage3.jpg);
-        height: 8000%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
     .seccionHistoria {
         flex-direction: column;
