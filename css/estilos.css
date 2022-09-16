@@ -26,12 +26,13 @@ header {
 
 .navLogo img {
     width: 200px;
+    padding: 15px;
 }
 
 
 .navLinkPropio a {
-    font-family: 'Barlow', sans-serif;
-
+    font-family: 'Bebas Neue';
+    font-size: 3rem;
 }
 
 .navBarPropio {
@@ -189,10 +190,10 @@ header {
 .tituloPersonajes {
     text-align: end;
     color: rgb(249, 246, 244);
-    font-size: 4rem;
+    font-size: 6rem;
     padding-top: 30px;
     padding-right: 30px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue';
     padding-bottom: 50%;
 }
 
@@ -202,7 +203,9 @@ header {
 }
 
 .tituloTarjeta {
+    font-family: 'Bebas Neue';
     color: beige;
+    font-size: 3rem;
 }
 
 .cuerpodeTarjeta {
@@ -228,6 +231,7 @@ header {
 }
 
 .contenedorPersonajes {
+ background-color: #181d27ff;
     padding-left: 30px;
 }
 
@@ -471,7 +475,7 @@ footer ul li a {
 
     .navLogo img {
         width: 100px;
-        margin: 10px;
+        padding: 5px;
     }
 
     .navBarPropio {
@@ -518,7 +522,7 @@ footer ul li a {
         text-align: center;
     }
 
-    .texto-noticias  {
+    .texto-noticias {
         text-align: center;
     }
 
@@ -530,8 +534,8 @@ footer ul li a {
     /* PERSONAJES*/
 
     .imagenBpersonajes {
-
-        background-image: url(../paginas/imagenes/backgimage.jpg);
+        background-image: none;
+        background-color: #181d27ff;
     }
 
 
@@ -567,7 +571,7 @@ footer ul li a {
 
     /* HISTORIA*/
 
-    .seccionHistoria h2{
+    .seccionHistoria h2 {
         padding-bottom: 10px;
     }
 
@@ -638,7 +642,7 @@ footer ul li a {
 
     }
 
-    .comic1{
+    .comic1 {
         padding-bottom: 20px;
     }
 
