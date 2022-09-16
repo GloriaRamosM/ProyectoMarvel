@@ -13,12 +13,19 @@ html {
 }
 
 
-/* BOOTSTRAP Navegador */
+/*************** BOOTSTRAP Navegador **************/
+
+
 
 header {
     position: sticky;
     top: 0;
     z-index: 99999;
+}
+
+
+.navLogo img {
+    width: 200px;
 }
 
 
@@ -44,8 +51,7 @@ header {
 
 
 
-
-/* Imagenes Index GIF*/
+/* Index GIF*/
 
 .imagenBindex {
     background-image: url(../paginas/imagenes/backgimage.jpg);
@@ -58,80 +64,9 @@ header {
 
 
 
-
-/* NOTICIAS */
-
-
-.seccionNoticias h2 {
-    margin: 20px;
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-}
-
-.seccionNoticias {
-    padding: 10px;
-    margin: 20px;
-}
-
-#texto-noticias {
-    font-family: 'Barlow', sans-serif;
-}
+/********** SECCION PELICULAS - INDEX************/
 
 
-#texto-noticias {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 30px;
-}
-
-
-
-
-
-/* Seccion historia - COMICS*/
-
-.seccionComics h2 {
-    margin: 20px;
-    text-align: center;
-}
-
-
-/* AGREGAR TEXT-WHITE HTML, FS DE BOOSTRAP AL HTML, Y MARGIN M-5 Y AGREGAR TEXT-CENTER */
-.seccionComics {
-    padding: 10px;
-    margin: 20px;
-}
-
-
-
-
-
-
-/* seccion Peliculas imagenes y seccion peliculas videos*/
-
-
-
-
-.videosPeliculas {
-    padding: 30px;
-}
-
-
-
-.videosPeliculas {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-
-
-
-
-
-
-/* BS INDEX PELICULAS*/
 
 .containerPropioPeliculas {
     padding: 40px;
@@ -155,30 +90,66 @@ header {
 
 }
 
-
-/*  CARDS NOTICIAS -INDEX */
-
-.tituloPropio {
-    text-align: center;
+.videosPeliculas {
+    padding: 30px;
 }
 
 
+
+.videosPeliculas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+/***************** NOTICIAS - INDEX**************/
+
+
+.seccionNoticias h2 {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.seccionNoticias {
+    padding: 10px;
+    margin: 20px;
+}
+
+#texto-noticias {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+#texto-noticias {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+
+
+/*  CARDS NOTICIAS -INDEX */
+
+
 .wPropio {
-    width: 70% ! important;
+    width: 60% !important;
     background-color: rgb(15, 15, 19);
     margin-bottom: 20px;
 }
 
-.cuerpoTarjeta {
-    border: 0;
-    align-items: center;
-
-}
 
 .botonPropio {
     background-color: rgb(6, 54, 55);
     border-color: rgb(6, 54, 55);
-    font-size: 1rem;
+    font-size: 2rem;
 
 }
 
@@ -189,36 +160,52 @@ header {
 
 }
 
-.navLogo img {
-    width: 200px;
+
+/************** PERSONAJES*********/
+
+
+.imagenBpersonajes {
+    background-image: url(../paginas/imagenes/imagenbackg2.jpg);
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
+/* TRANSICIONES PERSONAJES*/
+
+.letras:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
 
 
 /* ARREGLO CARDS PERSONAJES*/
 /* ANIMACIONES PERSONAJES*/
 
 
-.titulo {
-    text-align: center;
-    color: beige;
-    font-size: 20px;
-}
-
 .tituloPersonajes {
-    text-align: right;
+    text-align: end;
     color: rgb(249, 246, 244);
     font-size: 4rem;
     padding-top: 30px;
     padding-right: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Barlow', sans-serif;
     padding-bottom: 50%;
 }
 
 
+.imgPersonajesVistaMobile{
+    display: none;
+}
+.tituloTarjeta {
+    color: beige;
+}
 
 .cuerpodeTarjeta {
-
     padding: 30px;
 
 }
@@ -231,14 +218,6 @@ header {
 .letras {
     color: beige;
     font-size: 12px;
-
-
-
-}
-
-.letras:hover {
-    transform: scale(1.1);
-    transition: all 0.7s;
 }
 
 
@@ -246,7 +225,6 @@ header {
     padding-top: 40px;
     width: 400px;
     height: 600px;
-
 }
 
 .contenedorPersonajes {
@@ -263,11 +241,11 @@ header {
 
 
 
-/* seccion personajes fondo */
+/************ SECCION HISTORIA*************** */
 
-.imagenBpersonajes {
-    background-image: url(../paginas/imagenes/imagenbackg2.jpg);
-    height: 5000px;
+.backgroundColorHistoria {
+    background-image: url(../paginas/imagenes/backgimage3.jpg );
+    height: 8000%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -276,22 +254,11 @@ header {
 
 
 
-
-
-
-
-
-
-
-/* Seccion historia Html aparte  LETRAS*/
-
 .seccionHistoria h2 {
     color: rgb(245, 250, 250);
     font-family: 'Barlow', sans-serif;
     font-size: 3rem;
-    text-align: center;
-    padding: 10px;
-
+    padding-top: 10px;
 
 }
 
@@ -306,7 +273,6 @@ header {
     font-size: large;
     color: white;
 }
-
 
 
 .parrafo-dos-historia p {
@@ -325,7 +291,6 @@ article p {
 
 
 .tituloVideosHistoria {
-    text-align: center;
     padding-bottom: 30px;
     font-family: 'Barlow', sans-serif;
     font-size: 3rem;
@@ -334,17 +299,6 @@ article p {
 }
 
 
-
-/* Backgraound img Historia*/
-
-.backgroundColorHistoria {
-    background-image: url(../paginas/imagenes/backgimage3.jpg );
-    height: 8000%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /* Imagenes Historia*/
 
@@ -400,7 +354,20 @@ article p {
 
 
 
-/* Seccion Comics*/
+
+
+
+/* COMICS*/
+
+.seccionComics h2 {
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.seccionComics {
+    padding: 20px;
+    margin: 20px;
+}
 
 .comics nav {
     display: flex;
@@ -412,48 +379,7 @@ article p {
 
 
 
-.seccionComics h2 {
-    font-family: 'Barlow', sans-serif;
-    padding: 10px;
-    text-align: center;
-}
 
-
-/* Footer compartido a mis 3 html*/
-
-footer {
-    background-color: black;
-    font-size: 2rem;
-    font-family: 'Barlow', sans-serif;
-    color: rgb(255, 255, 246);
-
-    position: sticky;
-    bottom: 0%;
-
-}
-
-footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: space-evenly;
-
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: rgb(244, 242, 238);
-}
-
-
-
-/* TRANSICIONES*/
-
-.seccionPeliculas article a :hover {
-    transform: scale(1.1);
-    transition: all 0.7s;
-
-}
 
 /* TRANS. SECCION COMICS*/
 .comic1:hover {
@@ -492,6 +418,41 @@ footer ul li a {
 
 
 
+
+/* Footer compartido a mis 3 html*/
+
+footer {
+    background-color: black;
+    font-size: 2rem;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(255, 255, 246);
+
+    position: sticky;
+    bottom: 0%;
+
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(244, 242, 238);
+}
+
+
+
+
+
+
+
+
+
 /* Media Queries */
 
 @media screen and (max-width:576px) {
@@ -499,10 +460,58 @@ footer ul li a {
 
     /* NAVEGADOR*/
 
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+    }
+
+
+    .navLogo img {
+        width: 100px;
+        margin: 10px;
+    }
 
     .navBarPropio {
-        gap: 20px;
+        gap: 10px;
     }
+
+.hamburguesa{
+    margin-right: 50px;
+}
+    /* PERSONAJES*/
+
+    .imagenBpersonajes{
+
+        background-image: url(../paginas/imagenes/backgimage.jpg);
+    }
+
+    
+    .imagenBpersonajes {
+        height: 9000px;
+    }
+
+
+    .tituloPersonajes{
+        display: none;
+    }
+
+    .imgPersonajesVistaMobile{
+        display: inline-block;
+        width: 100vw;
+        height: auto;
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+    
+    
+
+    .tamanoTarjeta{
+        width: 400px;
+        height: 600px;
+       padding: 0px;
+    }
+
 
 
 
@@ -545,28 +554,6 @@ footer ul li a {
 
 
     /* Seccion Personajes */
-
-
-
-    .imagenBpersonajes {
-        height: 7000px;
-    }
-
-    .tamanoTarjeta {
-        padding-top: 20px;
-        width: 400px;
-        height: auto;
-
-    }
-
-    .contenedorPersonajes {
-
-        padding: 5px;
-
-
-    }
-
-
 
 
 
