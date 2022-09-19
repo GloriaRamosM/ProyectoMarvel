@@ -1,0 +1,67 @@
+/************** PERSONAJES*********/
+
+.imagenBpersonajes {
+    background-image: url(../paginas/imagenes/imagenbackg2.jpg);
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccionPersonajes {
+
+    .contenedorPersonajes {
+        background-color: #181d27ff;
+        padding-left: 30px;
+    }
+
+
+    .tituloPersonajes {
+        text-align: end;
+        color: $color-principal;
+        font-size: 6rem;
+        padding-top: 30px;
+        padding-right: 30px;
+        font-family: $font-family-principal;
+        padding-bottom: 50%;
+    }
+
+    .imgPersonajesVistaMobile {
+        display: none;
+    }
+
+    .tituloTarjeta {
+        font-family: $font-family-principal;
+        color: $color-secundario;
+        font-size: 3rem;
+    }
+
+    .cuerpodeTarjeta {
+        padding: 30px;
+
+    }
+
+    .estiloTarjeta {
+        border: rgb(16, 14, 14);
+        background-color: $bg-principal;
+    }
+
+    .letras {
+        color: $color-secundario;
+        font-size: 12px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: all 0.7s;
+        }
+    }
+
+
+    .tamanoTarjeta {
+        padding-top: 40px;
+        width: 400px;
+        height: 600px;
+    }
+
+}

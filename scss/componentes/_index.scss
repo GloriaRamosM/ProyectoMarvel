@@ -1,0 +1,90 @@
+/* Index GIF*/
+
+.imagenBindex {
+    background-image: url(../paginas/imagenes/backgimage.jpg);
+    height: 3000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/********** SECCION PELICULAS - INDEX************/
+
+.containerPropioPeliculas {
+    padding: 40px;
+    margin-top: 40px;
+
+    #texto-peliculas {
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        font-family: $font-family-secundario;
+
+    }
+
+    .parrafoP {
+        font-size: 2rem;
+        color: $color-principal;
+        text-align: center;
+        margin: 50px;
+        font-family: $font-family-secundario;
+
+    }
+
+}
+
+.videosPeliculas {
+    padding: 30px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/***************** NOTICIAS - INDEX**************/
+
+.seccionNoticias {
+    margin: 20px;
+
+    h2 {
+        font-size: 3rem;
+        margin: 20px;
+        text-align: center;
+        font-family: $font-family-principal;
+    }
+
+    #texto-noticias {
+        font-size: 2rem;
+        font-family: $font-family-principal;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+/*  CARDS NOTICIAS -INDEX */
+
+.wPropio {
+    width: 60% !important;
+    background-color: rgb(15, 15, 19);
+    margin-bottom: 20px;
+}
+
+
+.botonPropio {
+    background-color: rgb(6, 54, 55);
+    border-color: rgb(6, 54, 55);
+    font-size: 2rem;
+
+    &:hover {
+        color: darkcyan;
+        background-color: darkcyan;
+        border-color: darkcyan;
+        background-color: transparent;
+
+    }
+
+}

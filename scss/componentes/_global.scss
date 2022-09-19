@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+/*************** BOOTSTRAP Navegador **************/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+
+    .navLogo img {
+        width: 200px;
+        padding: 15px;
+    }
+
+    .navLinkPropio a {
+        font-family: $font-family-principal;
+        font-size: 3rem;
+
+
+        &:hover {
+            color: rgb(205, 40, 40);
+        }
+
+    }
+
+
+    .navBarPropio {
+        gap: 113px;
+    }
+
+    .hamburguesa {
+        color: rgb(27, 32, 34);
+        background-color: rgb(27, 32, 34);
+
+    }
+}
+
+
+
+/********* Footer compartido a mis 3 html**********/
+
+footer {
+    background-color: $bg-principal;
+    font-size: 2rem;
+    font-family: $font-family-principal;
+    color: $color-principal;
+
+    position: sticky;
+    bottom: 0%;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-evenly;
+
+        li a {
+            text-decoration: none;
+            color: $color-principal;
+        }
+
+    }
+
+
+
+}

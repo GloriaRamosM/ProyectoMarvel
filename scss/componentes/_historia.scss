@@ -1,0 +1,171 @@
+
+
+/************ SECCION HISTORIA*************** */
+.backgroundColorHistoria {
+    background-color: #181d27ff;
+    height: 8000%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccionHistoria {
+    h2 {
+        color: $color-principal;
+        font-family: $font-family-principal;
+        font-size: 4rem;
+        padding-top: 20px;
+        padding-right: 30px;
+        text-align: center;
+
+    }
+
+    p {
+        font-family: $font-family-principal;
+        color: $color-principal;
+        font-size: 2rem;
+    }
+
+    .parrafo-uno-historia p {
+        font-size: large;
+        color: $color-principal;
+
+
+    }
+
+    .parrafo-uno-historia img {
+        height: 600px;
+        width: 500px;
+    }
+
+    .parrafo-uno-historia {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+
+
+    }
+
+    .parrafo-dos-historia p {
+        font-size: large;
+
+
+    }
+
+    .parrafo-dos-historia img {
+        height: 600px;
+        width: 400px;
+
+    }
+
+    .parrafo-dos-historia {
+        display: flex;
+        flex-direction: row-reverse
+    }
+
+    .parrafo-tres-historia p {
+        font-size: large;
+
+
+    }
+
+    .parrafo-tres-historia img {
+        height: 400px;
+        width: 600px;
+    }
+
+
+    .parrafo-tres-historia {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    article p {
+        font-family: $font-family-secundario;
+        color: $color-principal;
+        font-size: 3rem;
+
+        margin: 30px;
+        padding: 30px;
+        width: 40%;
+        height: 20%;
+    }
+
+
+
+}
+
+
+/************ Videos Historia*************** */
+
+.tituloVideosHistoria {
+    padding-bottom: 30px;
+    font-family: $font-family-secundario;
+    font-size: 3rem;
+    color: $color-principal;
+
+}
+
+
+/* COMICS*/
+
+.seccionComics {
+    padding: 20px;
+    margin: 20px;
+
+
+    h2 {
+        font-family: 'Barlow', sans-serif;
+
+    }
+
+
+}
+
+
+.comics {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+
+    }
+
+    .comic1:hover {
+        transform: scale(1.1);
+        transition: all 0.7s;
+    }
+
+    .comic2:hover {
+        transform: scale(1.1);
+        transition: all 0.7s;
+    }
+
+    .comic3:hover {
+        transform: scale(1.1);
+        transition: all 0.7s;
+    }
+
+    .comic4:hover {
+        transform: scale(1.1);
+        transition: all 0.7s;
+    }
+
+    .comic5:hover {
+        transform: scale(1.1);
+        transition: all 0.7s;
+    }
+
+    .comic6:hover {
+        transform: scale(1.1);
+        transition: all 0.7s;
+
+    }
+
+}
