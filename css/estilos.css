@@ -41,7 +41,7 @@ header .hamburguesa {
 footer {
   background-color: black;
   font-size: 2rem;
-  font-family: "Bebas Neue";
+  font-family: "Barlow", sans-serif;
   color: white;
   position: sticky;
   bottom: 0%;
@@ -107,7 +107,7 @@ footer ul li a {
 }
 .seccionNoticias #texto-noticias {
   font-size: 2rem;
-  font-family: "Bebas Neue";
+  font-family: "Barlow", sans-serif;
   padding-bottom: 30px;
   text-align: center;
 }
