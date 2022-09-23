@@ -24,28 +24,18 @@
     }
 
     .parrafoP {
-        font-size: 2rem;
-        color: $color-principal;
-        text-align: center;
-        margin: 50px;
-        font-family: $font-family-secundario;
 
+        @include parrafosIndex
+      
     }
 
 }
 
 .videosPeliculas {
+    @extend %disposicion;
     padding: 30px;
 
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
 }
-
-/***************** NOTICIAS - INDEX**************/
 
 .seccionNoticias {
     margin: 20px;
@@ -58,10 +48,8 @@
     }
 
     #texto-noticias {
-        font-size: 2rem;
-        font-family: $font-family-secundario;
-        padding-bottom: 30px;
-        text-align: center;
+      
+        @include parrafosIndex
     }
 }
 

@@ -1,3 +1,11 @@
+.videosPeliculas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,23 +87,17 @@ footer ul li a {
   font-family: "Barlow", sans-serif;
 }
 .containerPropioPeliculas .parrafoP {
-  font-size: 2rem;
   color: white;
-  text-align: center;
-  margin: 50px;
+  font-size: 2rem;
   font-family: "Barlow", sans-serif;
+  margin: 50px;
+  text-align: center;
 }
 
 .videosPeliculas {
   padding: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
-/***************** NOTICIAS - INDEX**************/
 .seccionNoticias {
   margin: 20px;
 }
@@ -106,9 +108,10 @@ footer ul li a {
   font-family: "Bebas Neue";
 }
 .seccionNoticias #texto-noticias {
+  color: white;
   font-size: 2rem;
   font-family: "Barlow", sans-serif;
-  padding-bottom: 30px;
+  margin: 50px;
   text-align: center;
 }
 
