@@ -432,25 +432,22 @@ footer ul li a {
   .columnaPropia {
     width: 80%;
   }
-}
-/* Seccion COMICS */
-.seccionComics {
-  flex-direction: column;
-}
-
-.comic1 {
-  padding-bottom: 20px;
-}
-
-/* Footer para las 3 secciones */
-footer {
-  position: relative;
-}
-
-ul {
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  align-items: center;
+  /* Seccion COMICS */
+  .seccionComics {
+    flex-direction: column;
+  }
+  .comic1 {
+    padding-bottom: 20px;
+  }
+  /* Footer para las 3 secciones */
+  footer {
+    position: relative;
+  }
+  footer ul {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
