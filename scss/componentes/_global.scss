@@ -59,8 +59,11 @@ footer {
 
     position: sticky;
     bottom: 0%;
+    
 
     ul {
+
+        margin: 0px;
         display: flex;
         flex-wrap: wrap;
         list-style: none;

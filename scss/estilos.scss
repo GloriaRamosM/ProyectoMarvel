@@ -10,7 +10,8 @@
 
 
 
-/****** Media Queries ******/////
+/****** Media Queries ******/
+////
 
 @media screen and (max-width:576px) {
 
@@ -54,11 +55,16 @@
     /* PELICULAS*/
 
     .containerPropioPeliculas {
-        margin: 10px;
+        margin: 0px;
+        padding: 30px;
+
+        #texto-peliculas {
+            margin: 20px;
+        }
 
         .parrafoP {
             margin: 0px;
-            padding-bottom: 20px;
+            padding-bottom: 30px;
         }
     }
 
@@ -77,8 +83,9 @@
             text-align: center;
         }
 
-        .texto-noticias {
+        #texto-noticias {
             text-align: center;
+            margin: 25px;
         }
 
     }
@@ -94,7 +101,7 @@
     .imagenBpersonajes {
         background-image: none;
         background-color: #181d27ff;
-        height: 9000px;
+        height: 10000px;
     }
 
     .seccionPersonajes {
@@ -134,24 +141,22 @@
         flex-wrap: wrap;
         align-items: center;
 
-        & h2 {
+        h2 {
             padding-bottom: 10px;
         }
 
-        & article p {
+        article p {
             margin: 10px;
             padding: 10px;
             width: 90%;
-
-
-           
+        }
 
             .parrafo-uno-historia {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
-                & img {
+                 & img {
 
                     height: 400px;
                     width: 300px;
@@ -173,10 +178,15 @@
 
 
             .parrafo-tres-historia {
+                
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 flex-wrap: wrap;
+
+                & p {
+                    width: 90%;
+                }
 
                 & img {
                     height: 300px;
@@ -195,27 +205,31 @@
     }
 
 
-        /* Seccion COMICS */
+    /* Seccion COMICS */
 
 
-        .seccionComics {
-            flex-direction: column;
-
-        }
-
-        .comic1 {
-            padding-bottom: 20px;
-        }
-
-
-        /* Footer para las 3 secciones */
-
-
-        footer ul {
-            flex-direction: column-reverse;
-            justify-content: space-between;
-            align-items: center;
-
-        }
+    .seccionComics {
+        flex-direction: column;
 
     }
+
+    .comic1 {
+        padding-bottom: 20px;
+    }
+
+
+    /* Footer para las 3 secciones */
+
+    footer {
+        position: relative;
+
+    }
+
+    ul {
+
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+

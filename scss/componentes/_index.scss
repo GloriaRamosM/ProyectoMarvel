@@ -19,7 +19,7 @@
         font-size: 3rem;
         color: white;
         text-align: center;
-        font-family: $font-family-secundario;
+        font-family: $font-family-principal;
 
     }
 
@@ -38,7 +38,7 @@
 }
 
 .seccionNoticias {
-    margin: 20px;
+    margin: 0px;
 
     h2 {
         font-size: 3rem;
@@ -48,23 +48,29 @@
     }
 
     #texto-noticias {
-      
-        @include parrafosIndex
+        color:$color-principal;
+        font-size: 2rem;
+        font-family: $font-family-secundario;
+        margin: 50px;
+        
     }
 }
 
 /*  CARDS NOTICIAS -INDEX */
 
 .wPropio {
-    width: 60% !important;
-    background-color: rgb(15, 15, 19);
-    margin-bottom: 20px;
+    width: 70% !important;
+    background-color: #181d27ff;
+    margin-bottom: 40px;
 }
 
 
 .botonPropio {
     background-color: rgb(6, 54, 55);
     border-color: rgb(6, 54, 55);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
     font-size: 2rem;
 
     &:hover {
