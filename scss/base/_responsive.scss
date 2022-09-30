@@ -1,0 +1,353 @@
+/****** Media Queries ******/
+////
+
+
+
+@include media-breakpoint-down(md){
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+
+        .navLogo img {
+            width: 150px;
+            padding: 5px;
+        }
+
+        .navBarPropio {
+            gap: 10px;
+        }
+
+        .hamburguesa {
+            margin-right: 50px;
+        }
+
+
+    }
+
+ /*INDEX*/
+
+ .imagenBindex {
+    height: 6000px;
+}
+
+
+/* PELICULAS*/
+
+.containerPropioPeliculas {
+   
+    padding: 10px;
+
+    #texto-peliculas {
+        margin: 20px;
+    }
+
+    .parrafoP {
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+.videosPeliculas iframe {
+    width: 450px;
+    height: 300px;
+}
+
+
+/* NOTICIAS*/
+
+.seccionNoticias {
+    h2 {
+        text-align: center;
+    }
+
+    #texto-noticias {
+        text-align: center;
+        margin: 25px;
+    }
+
+}
+
+
+.rowPropioNoticias {
+    align-items: center;
+
+}
+
+
+
+
+
+
+    //////***** PERSONAJES******///////
+ 
+    .imagenBpersonajes {
+     background-image: none;
+     background-color: #181d27ff;
+     height: 9000px;
+ }
+ 
+ .seccionPersonajes {
+ 
+     .tituloPersonajes {
+         text-align: center;
+         padding: 0cm;
+         font-size: 4rem
+     }
+ 
+     
+     .imgPersonajesVistaMobile {
+         display: inline-block;
+         width: 100vw;
+         height: auto;
+         margin-top: 0%;
+         margin-bottom: 10%;
+     }
+ 
+ }
+
+ footer {
+    position: relative;
+
+
+
+    ul {
+
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+
+
+}
+
+
+@include media-breakpoint-down(sm) 
+
+{
+
+
+    /* NAVEGADOR*/
+
+
+    .ocultarMobile {
+        display: none;
+    }
+
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+
+        .navLogo img {
+            width: 100px;
+            padding: 5px;
+        }
+
+        .navBarPropio {
+            gap: 10px;
+        }
+
+        .hamburguesa {
+            margin-right: 50px;
+        }
+
+
+    }
+
+    /*INDEX*/
+
+    .imagenBindex {
+        height: 6000px;
+    }
+
+
+    /* PELICULAS*/
+
+    .containerPropioPeliculas {
+        margin: 0px;
+        padding: 30px;
+
+        #texto-peliculas {
+            margin: 20px;
+        }
+
+        .parrafoP {
+            margin: 0px;
+            padding-bottom: 30px;
+        }
+    }
+
+
+
+    .videosPeliculas iframe {
+        width: 430px;
+        height: 400px;
+    }
+
+
+    /* NOTICIAS*/
+
+    .seccionNoticias {
+        h2 {
+            text-align: center;
+        }
+
+        #texto-noticias {
+            text-align: center;
+            margin: 25px;
+        }
+
+    }
+
+
+    .rowPropioNoticias {
+        align-items: center;
+    }
+
+
+    //////***** PERSONAJES******///////
+
+    .imagenBpersonajes {
+        background-image: none;
+        background-color: #181d27ff;
+        height: 10000px;
+    }
+
+    .seccionPersonajes {
+
+        .tituloPersonajes {
+            font-size: 3rem;
+            padding-top: 30px;
+        }
+
+        .tamanoTarjeta {
+            width: 400px;
+            height: 600px;
+            padding: 0px;
+        }
+
+        .imgPersonajesVistaMobile {
+            display: none
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+    /* HISTORIA*/
+
+    .seccionHistoria {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        h2 {
+            padding-bottom: 10px;
+        }
+
+        article p {
+            margin: 10px;
+            padding: 10px;
+            width: 90%;
+        }
+
+        .parrafo-uno-historia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & img {
+
+                height: 400px;
+                width: 300px;
+            }
+        }
+
+        .parrafo-dos-historia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+
+            & img {
+                height: 400px;
+                width: 300px;
+
+            }
+        }
+
+
+        .parrafo-tres-historia {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+
+            & p {
+                width: 90%;
+            }
+
+            & img {
+                height: 300px;
+                width: 400px;
+            }
+        }
+
+
+    }
+
+
+    .columnaPropia {
+        width: 80%;
+    }
+
+
+
+
+    /* Seccion COMICS */
+
+
+    .seccionComics {
+        flex-direction: column;
+
+    }
+
+    .comic1 {
+        padding-bottom: 20px;
+    }
+
+
+    /* Footer para las 3 secciones */
+
+    footer {
+        position: relative;
+
+
+
+        ul {
+
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+    }
+
+
+
+}
