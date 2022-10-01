@@ -11080,6 +11080,9 @@ footer ul li a {
 
 /****** Media Queries ******/
 @media (max-width: 767.98px) {
+  .ocultarTablet {
+    display: none;
+  }
   header {
     position: sticky;
     top: 0;
@@ -11141,6 +11144,62 @@ footer ul li a {
     height: auto;
     margin-top: 0%;
     margin-bottom: 10%;
+  }
+  /* HISTORIA*/
+  .seccionHistoria {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .seccionHistoria h2, .seccionHistoria .h2 {
+    padding-bottom: 10px;
+  }
+  .seccionHistoria article p {
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+  .seccionHistoria .parrafo-uno-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccionHistoria .parrafo-uno-historia img {
+    height: 400px;
+    width: 300px;
+  }
+  .seccionHistoria .parrafo-dos-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .seccionHistoria .parrafo-dos-historia img {
+    height: 400px;
+    width: 300px;
+  }
+  .seccionHistoria .parrafo-tres-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .seccionHistoria .parrafo-tres-historia p {
+    width: 90%;
+  }
+  .seccionHistoria .parrafo-tres-historia img {
+    height: 300px;
+    width: 400px;
+  }
+  .columnaPropia {
+    width: 80%;
+  }
+  /* Seccion COMICS */
+  .seccionComics {
+    flex-direction: column;
+  }
+  .comic1 {
+    padding-bottom: 20px;
   }
   footer {
     position: relative;
