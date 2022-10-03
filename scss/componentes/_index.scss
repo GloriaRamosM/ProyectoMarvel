@@ -2,7 +2,7 @@
 
 .imagenBindex {
     background-image: url(../paginas/imagenes/backgimage.jpg);
-    height: 3000px;
+    height: 4000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,11 +100,18 @@
 
 .botonPropioFormulario{
     margin-top: 20px;
+    padding: 10px;
     color: $color-principal;
     background-color: darkred;
     border-color: darkred;
+    font-size: 2rem;
 }
 
+.botonPropioFormulario:hover{
+    background-color: rgb(60, 4, 4) !important;
+    border:rgb(60, 4, 4)  ;
+    
+}
 .rowPropioFormulario{
     padding-top: 100px;
 }
