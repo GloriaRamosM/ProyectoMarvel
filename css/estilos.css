@@ -132,10 +132,35 @@ footer ul li a {
 }
 
 .botonPropio:hover {
-  color: darkcyan;
-  background-color: darkcyan;
-  border-color: darkcyan;
-  background-color: transparent;
+  color: darkcyan !important;
+  background-color: darkcyan !important;
+  border-color: darkcyan !important;
+  background-color: transparent !important;
+}
+
+.tituloFormulario {
+  color: white;
+  font-size: 3rem;
+  margin: 20px;
+  text-align: left;
+  font-family: "Bebas Neue";
+}
+
+.tipoDeLetra {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.botonPropioFormulario {
+  margin-top: 20px;
+  color: white;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.rowPropioFormulario {
+  padding-top: 100px;
 }
 
 /************** PERSONAJES*********/
