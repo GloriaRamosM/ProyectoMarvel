@@ -173,7 +173,6 @@ footer ul li a {
 /************** PERSONAJES*********/
 .imagenBpersonajes {
   background-image: url(../paginas/imagenes/imagenbackg2.jpg);
-  height: 3000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -399,7 +398,6 @@ footer ul li a {
   .imagenBpersonajes {
     background-image: none;
     background-color: #181d27;
-    height: 9000px;
   }
   .seccionPersonajes .tituloPersonajes {
     text-align: center;
@@ -524,7 +522,6 @@ footer ul li a {
   .imagenBpersonajes {
     background-image: none;
     background-color: #181d27;
-    height: 9000px;
   }
   .seccionPersonajes .tituloPersonajes {
     text-align: center;
@@ -650,7 +647,6 @@ footer ul li a {
   .imagenBpersonajes {
     background-image: none;
     background-color: #181d27;
-    height: 500px;
   }
   .seccionPersonajes .tituloPersonajes {
     font-size: 3rem;
