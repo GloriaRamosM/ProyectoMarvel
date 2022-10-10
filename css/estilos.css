@@ -166,9 +166,10 @@ footer ul li a {
   font-size: 2rem;
 }
 
-.botonPropioFormulario:hover {
+.botonPropioFormulario:hover, .botonPropioFormulario:focus-visible {
   background-color: rgb(60, 4, 4) !important;
-  border: rgb(60, 4, 4);
+  border-color: rgb(60, 4, 4) !important;
+  box-shadow: none;
 }
 
 /************** PERSONAJES*********/
