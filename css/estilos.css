@@ -69,7 +69,6 @@ footer ul li a {
 /* Index GIF*/
 .imagenBindex {
   background-image: url(../paginas/imagenes/backgimage.jpg);
-  height: 4000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,11 +123,12 @@ footer ul li a {
 
 .botonPropio {
   background-color: rgb(6, 54, 55);
-  border-color: rgb(6, 54, 55);
+  border-color: rgb(15, 28, 29);
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 7px;
   font-size: 2rem;
+  box-shadow: none !important;
 }
 
 .botonPropio:hover {
@@ -140,7 +140,8 @@ footer ul li a {
 
 /* FORMULARIO NOTICIAS */
 .containerFormulario {
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .tituloFormulario {
@@ -159,7 +160,7 @@ footer ul li a {
 
 .botonPropioFormulario {
   margin-top: 20px;
-  padding: 10px;
+  padding: 10px 30px;
   color: white;
   background-color: darkred;
   border-color: darkred;
@@ -344,11 +345,6 @@ footer ul li a {
 }
 
 /****** Media Queries ******/
-@media (max-width: 1200px) {
-  .imagenBindex {
-    height: 8000px;
-  }
-}
 @media (max-width: 991.98px) {
   .ocultarTablet {
     display: none;
@@ -369,9 +365,6 @@ footer ul li a {
     margin-right: 50px;
   }
   /*INDEX*/
-  .imagenBindex {
-    height: 6000px;
-  }
   /* PELICULAS*/
   .containerPropioPeliculas {
     padding: 10px;
@@ -493,9 +486,6 @@ footer ul li a {
     margin-right: 50px;
   }
   /*INDEX*/
-  .imagenBindex {
-    height: 6000px;
-  }
   /* PELICULAS*/
   .containerPropioPeliculas {
     padding: 10px;
@@ -617,9 +607,6 @@ footer ul li a {
     margin-right: 50px;
   }
   /*INDEX*/
-  .imagenBindex {
-    height: 6000px;
-  }
   /* PELICULAS*/
   .containerPropioPeliculas {
     margin: 0px;
