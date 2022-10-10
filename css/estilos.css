@@ -35,7 +35,7 @@ header .navLinkPropio a {
   font-size: 3rem;
 }
 header .navLinkPropio a:hover {
-  color: rgb(205, 40, 40);
+  color: #d9352e !important;
 }
 header .navBarPropio {
   gap: 100px;
@@ -91,7 +91,7 @@ footer ul li a {
   font-size: 2rem;
   font-family: "Barlow", sans-serif;
   margin: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 .videosPeliculas {
