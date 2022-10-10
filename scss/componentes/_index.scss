@@ -11,6 +11,13 @@
 
 /********** SECCION PELICULAS - INDEX************/
 
+#carouselExampleControls  .carousel-control-next-icon , #carouselExampleControls .carousel-control-prev-icon {
+    background-color: rgb(161, 19, 19);
+    border-radius: 50%;
+}
+
+
+
 .containerPropioPeliculas {
     padding: 40px;
     margin-top: 40px;
@@ -37,6 +44,10 @@
 
 }
 
+.videosPeliculas article{
+margin-top: 30px;
+}
+
 .seccionNoticias {
     margin: 0px;
 
@@ -60,6 +71,7 @@
 
 .cuerpoTarjeta{
     padding : 10px 30px;
+    
 
 }
 
@@ -69,7 +81,7 @@
 }
 
 .wPropio {
-    background-color: #181d27ff;
+    background-color: rgba(24, 29, 39, 0.875) ;
     margin-bottom: 40px;
 }
 
