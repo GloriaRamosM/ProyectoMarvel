@@ -115,26 +115,36 @@ footer ul li a {
 }
 
 /*  CARDS NOTICIAS -INDEX */
+.cuerpoTarjeta {
+  padding: 10px 30px;
+}
+
+.cuerpoTarjeta p {
+  text-align: left;
+}
+
 .wPropio {
-  width: 70% !important;
   background-color: #181d27;
   margin-bottom: 40px;
 }
 
 .botonPropio {
-  background-color: rgb(6, 54, 55);
+  font-family: "Bebas Neue";
+  background-color: darkred;
   border-color: rgb(15, 28, 29);
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 2rem;
   box-shadow: none !important;
 }
 
 .botonPropio:hover {
-  color: darkcyan !important;
+  color: white !important;
   background-color: darkcyan !important;
-  border-color: darkcyan !important;
+  border-color: white !important;
   background-color: transparent !important;
 }
 
