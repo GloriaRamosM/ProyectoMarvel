@@ -138,6 +138,11 @@ footer ul li a {
   background-color: transparent !important;
 }
 
+/* FORMULARIO NOTICIAS */
+.containerFormulario {
+  margin-top: 80px;
+}
+
 .tituloFormulario {
   color: white;
   font-size: 3rem;
@@ -166,12 +171,8 @@ footer ul li a {
   border: rgb(60, 4, 4);
 }
 
-.rowPropioFormulario {
-  padding-top: 100px;
-}
-
 /************** PERSONAJES*********/
-body {
+#paginaPersonajes {
   background-image: url(../paginas/imagenes/imagenbackg2.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -396,7 +397,7 @@ body {
   .rowPropioNoticias {
     align-items: center;
   }
-  body {
+  #paginaPersonajes {
     background-image: none;
     background-color: #181d27;
   }
@@ -520,7 +521,7 @@ body {
   .rowPropioNoticias {
     align-items: center;
   }
-  body {
+  #paginaPersonajes {
     background-image: none;
     background-color: #181d27;
   }
@@ -645,7 +646,7 @@ body {
   .rowPropioNoticias {
     align-items: center;
   }
-  body {
+  #paginaPersonajes {
     background-image: none;
     background-color: #181d27;
   }
