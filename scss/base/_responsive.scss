@@ -317,6 +317,9 @@
 
 
 
+
+
+
     //////***** PERSONAJES******///////
  
     #paginaPersonajes {
@@ -592,8 +595,8 @@
 
             & img {
 
-                height: 400px;
-                width: 300px;
+                height: auto;
+                width: 80%;
             }
         }
 
@@ -604,8 +607,8 @@
             flex-wrap: wrap;
 
             & img {
-                height: 400px;
-                width: 300px;
+                height: auto;
+                width: 80%;
 
             }
         }
@@ -623,8 +626,8 @@
             }
 
             & img {
-                height: 300px;
-                width: 400px;
+                height: auto;
+                width: 80%;
             }
         }
 
